@@ -1,4 +1,9 @@
 import { Category, Product, Testimonial, GalleryItem } from './types';
+import brazilImg from './assets/images/brazil_salgados_frescos_1781793373388.jpg';
+import bolinhaImg from './assets/images/bolinha_de_queijo_1781794199358.jpg';
+import kibeImg from './assets/images/kibe_recheado_cremoso_1781794606668.jpg';
+import enroladinhoImg from './assets/images/enroladinho_presunto_queijo_1781794768549.jpg';
+import miniFestaImg from './assets/images/mini_salgados_festa_1781795424954.jpg';
 
 export const CATEGORIES: Category[] = [
   { id: 'salgados', name: 'Salgados', iconName: 'Croissant' },
@@ -14,7 +19,7 @@ export const PRODUCTS: Product[] = [
     description: 'Nossa coxinha campeã! Massa de batata super leve, recheada com peito de frango desfiado temperado com ervas e o legítimo Catupiry. Super crocante e sequinha.',
     price: 'R$ 8,00',
     category: 'salgados',
-    image: '/src/assets/images/brazil_salgados_frescos_1781793373388.jpg',
+    image: brazilImg,
     popular: true,
   },
   {
@@ -23,7 +28,7 @@ export const PRODUCTS: Product[] = [
     description: 'Clássico imbatível que todo mundo ama! Crosta dourada e crocante recheada com bastante queijo muçarela bem derretido e temperado com orégano fresco.',
     price: 'R$ 8,00',
     category: 'salgados',
-    image: '/src/assets/images/bolinha_de_queijo_1781794199358.jpg',
+    image: bolinhaImg,
   },
   {
     id: 's3',
@@ -31,7 +36,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kibe tradicional de carne bovina moída de primeira, temperado com hortelã fresco e especiarias, recheado com queijo cremoso estilo requeijão.',
     price: 'R$ 8,50',
     category: 'salgados',
-    image: '/src/assets/images/kibe_recheado_cremoso_1781794606668.jpg',
+    image: kibeImg,
   },
   {
     id: 's4',
@@ -39,7 +44,7 @@ export const PRODUCTS: Product[] = [
     description: 'Receita caseira com massa salgada fofinha recheada com generosas fatias de presunto cozido premium e muçarela, frito na hora ou assado sob encomenda.',
     price: 'R$ 8,00',
     category: 'salgados',
-    image: '/src/assets/images/enroladinho_presunto_queijo_1781794768549.jpg',
+    image: enroladinhoImg,
   },
 
   // BEBIDAS
@@ -75,7 +80,7 @@ export const PRODUCTS: Product[] = [
     description: 'A diversão completa em família ou comemorações! 100 mini-salgados variados fritos na hora (coxinhas, bolinhas de queijo, kibes, enroladinhos) bem quentinhos + Coca-Cola de 2 Litros trincando de gelada.',
     price: 'R$ 95,00',
     category: 'combos',
-    image: '/src/assets/images/mini_salgados_festa_1781795424954.jpg',
+    image: miniFestaImg,
     popular: true,
   },
   {
@@ -84,7 +89,7 @@ export const PRODUCTS: Product[] = [
     description: 'Para aquele lanche rápido perfeito! 2 salgados grandes sequinhos à sua escolha (Coxinha, Kibe ou Enroladinho) + 1 Coca-Cola Lata de 350ml trincando de gelada.',
     price: 'R$ 20,00',
     category: 'combos',
-    image: '/src/assets/images/enroladinho_presunto_queijo_1781794768549.jpg',
+    image: enroladinhoImg,
   },
   {
     id: 'c3',
@@ -92,7 +97,7 @@ export const PRODUCTS: Product[] = [
     description: 'Quer fazer a festa? 20 minisalgados fritos na hora, variados e super crocantes (coxinhas, bolinhas de queijo, kibe) + 1 Coca-Cola Lata à sua escolha.',
     price: 'R$ 29,90',
     category: 'combos',
-    image: '/src/assets/images/mini_salgados_festa_1781795424954.jpg',
+    image: miniFestaImg,
   },
 ];
 
@@ -125,7 +130,7 @@ export const HIGHLIGHTS = [
     title: 'Salgados Sequinhos',
     subtitle: 'O Melhor Salgado da Cidade',
     description: 'Fritos na hora, sequinhos e recheados até a borda de verdade.',
-    image: '/src/assets/images/brazil_salgados_frescos_1781793373388.jpg',
+    image: brazilImg,
     badge: 'Fritura na Hora',
     whatsappText: 'Olá! Gostaria de pedir alguns salgados sequinhos e quentinhos.',
   },
@@ -133,7 +138,7 @@ export const HIGHLIGHTS = [
     title: 'Mini Salgados Especiais',
     subtitle: 'Perfeitos para Sua Festa ou Evento',
     description: 'Coxinhas, bolinhas de queijo e kibes em tamanho miniatura, fritos na hora sob encomenda e entregues bem crocantes.',
-    image: '/src/assets/images/mini_salgados_festa_1781795424954.jpg',
+    image: miniFestaImg,
     badge: 'Festa & Eventos',
     whatsappText: 'Olá! Gostaria de encomendar mini salgados para uma confraternização.',
   },
@@ -141,7 +146,7 @@ export const HIGHLIGHTS = [
     title: 'Combos de Encher os Olhos',
     subtitle: 'Salgados Quentinhos + Bebida Gelada',
     description: 'Selecione nossos combos familiares ou individuais de salgados fritos na hora para economizar e saborear a melhor qualidade.',
-    image: '/src/assets/images/mini_salgados_festa_1781795424954.jpg',
+    image: miniFestaImg,
     badge: 'Melhor Custo-Benefício',
     whatsappText: 'Olá! Gostaria de encomendar um Combo Festa com salgados e refrigerante.',
   },
@@ -150,31 +155,31 @@ export const HIGHLIGHTS = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'g1',
-    url: '/src/assets/images/brazil_salgados_frescos_1781793373388.jpg',
+    url: brazilImg,
     title: 'Nossos Salgados Clássicos',
     category: 'Salgados',
   },
   {
     id: 'g2',
-    url: '/src/assets/images/bolinha_de_queijo_1781794199358.jpg',
+    url: bolinhaImg,
     title: 'Bolinha de Queijo Stretchy',
     category: 'Salgados',
   },
   {
     id: 'g3',
-    url: '/src/assets/images/kibe_recheado_cremoso_1781794606668.jpg',
+    url: kibeImg,
     title: 'Kibe Especial com Recheio Cremoso',
     category: 'Salgados',
   },
   {
     id: 'g4',
-    url: '/src/assets/images/enroladinho_presunto_queijo_1781794768549.jpg',
+    url: enroladinhoImg,
     title: 'Enroladinhos Assados Quentes',
     category: 'Salgados',
   },
   {
     id: 'g5',
-    url: '/src/assets/images/mini_salgados_festa_1781795424954.jpg',
+    url: miniFestaImg,
     title: 'Mini Salgadinhos para Eventos',
     category: 'Combos',
   },
