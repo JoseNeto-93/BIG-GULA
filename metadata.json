@@ -1,0 +1,6 @@
+{
+  "name": "Lanchonete Big-Gula",
+  "description": "Site premium, moderno e responsivo da Lanchonete Big-Gula em Itapetininga/SP. Apresenta o cardápio completo, depoimentos, galeria de fotos, localização e atalhos rápidos para pedidos via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
