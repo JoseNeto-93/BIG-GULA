@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Star, ArrowRight, BookOpen, MessageCircle } from 'lucide-react';
+import epicHero from '../assets/images/epic_salgados_hero_1781795498896.jpg';
 import { getWhatsAppLink } from '../utils';
 
 export default function Hero() {
@@ -124,7 +125,7 @@ export default function Hero() {
             className="relative rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl bg-neutral-900 group"
           >
             <img
-              src="/src/assets/images/epic_salgados_hero_1781795498896.jpg"
+              src={epicHero}
               alt="Deliciosas coxinhas e salgadinhos crocantes fritos na hora"
               className="w-full h-auto object-cover max-h-[480px] group-hover:scale-105 transition-transform duration-700"
               referrerPolicy="no-referrer"
